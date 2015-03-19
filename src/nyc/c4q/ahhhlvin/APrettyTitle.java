@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class APrettyTitle {
     public static void main(String[] args) {
 
-        printTitle(firstCap("a tale of two cities"), '*');
+        printTitle("a tale of two cities", '*');
 
 
 
@@ -23,9 +23,30 @@ public class APrettyTitle {
     public static String printTitle(String title, char symbol) {
 
 
-        System.out.println(title);
+        Scanner input = new Scanner(title);
 
-        for (int i = 0; i < title.length(); i++) {
+        String sepWord;
+        String finalResult = ""; // initialize as empty
+        String word;
+
+
+        while (input.hasNext()) {
+            word = input.next();
+
+
+            sepWord = word.substring(0, 1).toUpperCase() + word.substring(1);
+
+
+
+            finalResult += sepWord + " ";
+
+
+        }
+
+        System.out.println(finalResult);
+
+
+        for (int i = 0; i < finalResult.length()-1; i++) {
             if (title.charAt(i) == ' ') {
                 System.out.print(" ");
             } else {
@@ -34,12 +55,10 @@ public class APrettyTitle {
 
         }
 
-
-        return title;
-
-    }
+        return finalResult;
 
 
+/*
     public static String firstCap(String text) {
         Scanner input = new Scanner(text);
 
@@ -63,6 +82,7 @@ public class APrettyTitle {
 
 
         return finalResult;
+*/
 
     }
 }
