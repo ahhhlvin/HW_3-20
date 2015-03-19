@@ -4,17 +4,24 @@ package nyc.c4q.ahhhlvin;
  * Created by alvin2 on 3/16/15.
  * Alvin Kuang
  * C4Q Access Code 2.1
+ *
  */
+
+import java.util.Scanner;
+
 public class APrettyTitle {
     public static void main(String[] args) {
 
-        printTitle("a tale of two cities", '*');
+        printTitle(firstCap("a tale of two cities"), '*');
+
+
 
 
     }
 
 
     public static String printTitle(String title, char symbol) {
+
 
         System.out.println(title);
 
@@ -32,16 +39,30 @@ public class APrettyTitle {
 
     }
 
-/*
-    public static String firstCap(String s) {
 
-        for(int j = 0; j < s.length(); j++) {
+    public static String firstCap(String text) {
+        Scanner input = new Scanner(text);
 
-            if (s.charAt(j) != ' ' && s.charAt(j + 1) == ' ') {
-                System.out.println(s.substring(j, j++).toUpperCase() + s.substring(j++).toLowerCase());
-            } else return s;
+        String sepWord;
+        String finalResult = ""; // initialize as empty
+        String word;
+
+
+
+        while (input.hasNext()) {
+            word = input.next();
+
+
+            sepWord = word.substring(0, 1).toUpperCase() + word.substring(1);
+
+
+            finalResult += sepWord + " ";
+
+
         }
-    }
-*/
 
+
+        return finalResult;
+
+    }
 }
