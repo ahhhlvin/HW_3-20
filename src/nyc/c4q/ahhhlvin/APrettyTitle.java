@@ -25,7 +25,7 @@ public class APrettyTitle {
 
         Scanner input = new Scanner(title);
 
-        String sepWord;
+        String sepWord;   // variable
         String finalResult = ""; // initialize as empty
         String word;
 
