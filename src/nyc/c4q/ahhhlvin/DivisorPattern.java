@@ -19,9 +19,9 @@ public class DivisorPattern {
         System.out.println("Please enter a number: ");
         int n = input.nextInt();
 
-        for (int i = 1; i <= n; i++) {  // outer for loop starts each ROW
+        for (int i = 1; i <= n; i++) {  // OUTER for loop starts each ROW
 
-            for (int j = 1; j <= n; j++) {  // inner for loop goes through the COLUMNS for each row
+            for (int j = 1; j <= n; j++) {  // INNER for loop goes through the COLUMNS for each row
 
 
                 if ((i % j == 0) || (j % i == 0)) { // % is called 'modulo' which means divides evenly WITHOUT any remainders
