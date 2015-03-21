@@ -60,8 +60,8 @@
       <file leaf-file-name="DivisorPattern.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nyc/c4q/ahhhlvin/DivisorPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33112583" vertical-offset="120" max-vertical-offset="690">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.7682119" vertical-offset="222" max-vertical-offset="690">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -196,7 +196,7 @@
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../VerbosityCalculator/src/nyc/c4q/ac21/VerbosityCalculator.java" />
   </component>
-  <component name="RunManager" selected="Application.FibonacciSeq">
+  <component name="RunManager" selected="Application.DivisorPattern">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="nyc.c4q.ahhhlvin.Main" />
@@ -437,9 +437,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.FibonacciSeq" />
-        <item index="1" class="java.lang.String" itemvalue="Application.APrettyTitle" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DivisorPattern" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DivisorPattern" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FibonacciSeq" />
+        <item index="2" class="java.lang.String" itemvalue="Application.APrettyTitle" />
         <item index="3" class="java.lang.String" itemvalue="Application.TwentyQuestions" />
       </list>
     </recent_temporary>
@@ -696,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nyc/c4q/ahhhlvin/DivisorPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33112583" vertical-offset="120" max-vertical-offset="690">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.7682119" vertical-offset="222" max-vertical-offset="690">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding />
         </state>
       </provider>
