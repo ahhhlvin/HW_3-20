@@ -16,7 +16,7 @@ public class DivisorPattern {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please a number: ");
+        System.out.println("Please enter a number: ");
         int n = input.nextInt();
 
         for (int i = 1; i <= n; i++) {
@@ -24,7 +24,7 @@ public class DivisorPattern {
             for (int j = 1; j <= n; j++) {
 
 
-                if ((i % j == 0) || (j % i == 0)) {
+                if ((i % j == 0) || (j % i == 0)) { // % is called 'modulo' which means divides evenly WITHOUT any remainders
                     System.out.print("@ ");
                 } else {
                     System.out.print("  ");
