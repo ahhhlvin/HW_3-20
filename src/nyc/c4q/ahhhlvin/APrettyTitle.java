@@ -4,6 +4,7 @@ package nyc.c4q.ahhhlvin;
  * Created by alvin2 on 3/16/15.
  * Alvin Kuang
  * C4Q Access Code 2.1
+ * Capitalizes and underlines a title string input using a symbol that is also included in the input
  *
  */
 

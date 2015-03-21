@@ -4,6 +4,7 @@ package nyc.c4q.ahhhlvin;
  * Created by alvin2 on 3/18/15.
  * Alvin Kuang
  * C4Q Access Code 2.1
+ * Calculates verbosity of a text file!
  */
 
 import java.util.Scanner;
